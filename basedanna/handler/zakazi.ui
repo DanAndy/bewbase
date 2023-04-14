@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>658</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(33, 33, 33)</string>
+  </property>
+  <widget class="QTableWidget" name="twStaffs">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>611</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(20, 255, 236)</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>261</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="leID">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>Код_заказа</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leCode">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>Дата_создания</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leDate">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>Время_заказа</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="leTime">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>Код_клиента</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="leCodeClient">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>Дата_закрытия</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="leTimeClose">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>Время_в_часах</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="leTimeHour">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>Код_услуги</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="leCodeYslygi">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+      <property name="text">
+       <string>Старший_смены</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="leHeigh">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(20, 255, 236)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>120</y>
+     <width>75</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(20, 255, 236)</string>
+    </property>
+    <property name="text">
+     <string>Open</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(20, 255, 236)</string>
+    </property>
+    <property name="text">
+     <string>Insert</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
