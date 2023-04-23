@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(2, 83, 157)</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>40</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(238, 164, 127)</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>541</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(238, 164, 127)</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>223</width>
+     <height>182</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lbIDkv">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+      <property name="text">
+       <string>IDkv</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="leIDkv">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lbFIO">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+      <property name="text">
+       <string>FIO</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leFIO">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lbAdress">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+      <property name="text">
+       <string>Adress</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leAdress">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lbTele">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+      <property name="text">
+       <string>Telephone</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="leTele">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lbDate">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+      <property name="text">
+       <string>DateOrder</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="leDate">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lbPay">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+      <property name="text">
+       <string>PayMount</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lePay">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(238, 164, 127)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
